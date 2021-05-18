@@ -2,10 +2,7 @@
 #include <cs50.h>
 int main()
 {
-        int num=0;
-        while (num !=1 && num !=2){
-        	num = get_int("Enter type of pattern (1 or 2) ");
-        }
+        num = get_int("Enter type of pattern (1 or 2) ");
         int rows = get_int("Number of rows ");
         if(num == 1)
         {
