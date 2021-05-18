@@ -6,7 +6,7 @@ int main(){
         num = get_int("Enter type of pattern (1 or 2) ");
         }
         int rows = get_int("Number of rows ");
-        if(num == 1)
+        if(num==1)
         {
             for(int i=0;i<rows;i++)
             {
@@ -31,11 +31,8 @@ int main(){
 		    {
 			    printf("#");
 		    }
-	        printf("\n");
-	        }   
-        }
-        else
-        {
-            printf("error");
-        }
+	    printf("\n");
+	    }   
+	}
     }
+
